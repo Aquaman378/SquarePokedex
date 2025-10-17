@@ -10,7 +10,7 @@
     "deploy": "npx expo export -p web && npx eas-cli@latest deploy"
   },
   "dependencies": {
-    "expo": "^53.0.23",
+   "expo": "^53.0.23",
     "expo-router": "~6.0.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
