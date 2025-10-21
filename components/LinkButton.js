@@ -15,7 +15,7 @@ export default function LinkButton({page, title, backgroundColor}) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 0.1,
+    flex: 0.5,
     backgroundColor: 'green',
     borderRadius: 120,
     alignItems: 'center',
