@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
-import LinkButton from '../components/LinkButton'
+import LinkButton from '../components/LinkButton';
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
-import typeColors from '../components/colorSheet'
+import typeColors from '../components/colorSheet';
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
           page="/pokemon/pikachu"
           title="Pikachu"
           imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
-          backgroundColor='#F7D02C'
+          backgroundColor={typeColors.electric}
         />
 
        <LinkButton
