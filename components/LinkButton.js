@@ -1,14 +1,17 @@
 import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
-export default function LinkButton({page, title, backgroundColor}) {
+export default function LinkButton({ page, title, backgroundColor, imageUrl }) {
   return (
-    <View style={styles.container}>
-      
-    <Link href={page}> {title} {backgroundColor} </Link>
-
-
+    <View style={[styles.container, { backgroundColor }]}>
+      <Link href={page}>
+        <View style={styles.content}>
+          <Text style={styles.text}>{title}</Text>
+          <Image source={{ uri: imageUrl }} style={styles.image} />
+        </View>
+      </Link>
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -16,9 +19,24 @@ export default function LinkButton({page, title, backgroundColor}) {
 const styles = StyleSheet.create({
   container: {
     flex: 0.5,
-    backgroundColor: 'green',
     borderRadius: 120,
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 10,
+    margin: 5,
+  },
+  content: {
+    alignItems: 'center',
+  },
+  text: {
+    fontWeight: 'bold',
+    fontSize: 14,
+    color: '#000',
+    marginBottom: 5,
+  },
+  image: {
+    width: 100,
+    height: 100,
+    borderRadius: 10,
   },
 });
