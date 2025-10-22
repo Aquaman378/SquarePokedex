@@ -23,7 +23,7 @@ export default function App() {
           backgroundColor="#FFEB3B"
         />
 
-        <LinkButton
+       <LinkButton
           page="/pokemon/charmander"
           title="Charmander"
           imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
