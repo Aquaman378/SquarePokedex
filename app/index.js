@@ -1,30 +1,80 @@
 import { StatusBar } from 'expo-status-bar';
 import LinkButton from '../components/LinkButton';
-import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import { Link } from 'expo-router';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>All the Pokémon data you'll ever need in one place!</Text>
       <Text style={styles.subtitle}>Thousands of data compiled into one place</Text>
-
-      <LinkButton page="/pokedex" title="Explore Pokédex" backgroundColor="#FFCB05" />
+      <Image
+        source={{ uri: 'https://thvnext.bing.com/th/id/OIP.u2IP_SZQg8F28UwkTnQivwHaC0?w=337&h=132&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3&ucfimg=1' }}
+        style={{ width: 410, height: 165, borderColor: 'black', borderWidth: 2 }}
+      />
 
       <View style={styles.imageRow}>
-        <Image
-          source={{ uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png' }}
-          style={styles.pokemon}
-        />
-        <Image
-          source={{ uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png' }}
-          style={styles.pokemon}
-        />
-        <Image
-          source={{ uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png' }}
-          style={styles.pokemon}
-        />
-      </View>
+        <Link href="/pokemon/pikachu">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/pikachu.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
 
+        <Link href="/pokemon/charmander">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/charmander.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+        <Link href="/pokemon/aegislash">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/aegislash.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+        <Link href="/app/Tyranitar/tyranitar.js">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/tyranitar.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+        <Link href="/pokemon/lycancroc">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+
+        <Link href="/pokemon/lucario">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/lucario.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+        <Link href="/pokemon/blaziken">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/blaziken.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+        <Link href="/pokemon/garchomp">
+          <Image
+            source={{ uri: 'https://img.pokemondb.net/artwork/large/garchomp.jpg' }}
+            style={styles.pokemon}
+          />
+        </Link>
+
+      </View>
+      <View>
+        <Text style={styles.title}>Click on a Pokemon to learn more!</Text>
+      </View>
       <View style={styles.footer}>
         <Text style={styles.footerTitle}>PokéDex</Text>
         <Text style={styles.footerText}>Our Favorite Pokémon</Text>
