@@ -14,6 +14,7 @@ export default function App() {
       </View>
       <View>
         <Text style={styles.title}>Lucario</Text>
+        <Text style={styles.bodyText}>Lucario is a Fighting/Steel type Pokémon introduced in Generation 4. {"/n"}Lucario is a bipedal canine-like Pokémon. It is blue and black in color with red eyes. It has round spikes protruding from the back of each forepaw and a third on its chest, as well as two pairs of aura sensors that are appendages hanging down from the back of its head.{"/n"} Lucario is based on the mythical creature Anubis, the jackal-headed god associated with mummification and the afterlife in ancient Egyptian religion.{"/n"}Lucario has a Mega Evolution, available in Generation 6 games and Pokémon Go.</Text>
       </View>
     </View>
   );
