@@ -17,28 +17,28 @@ export default function App() {
 
       <View style={styles.imageRow}>
         <LinkButton
-          page="/pokemon/pikachu"
+          page="/app/Pikachu"
           title="Pikachu"
           imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
           backgroundColor="#FFEB3B"
         />
 
        <LinkButton
-          page="/pokemon/charmander"
+          page="/app/Charmander"
           title="Charmander"
           imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
           backgroundColor="#FF7043"
         />
 
         <LinkButton
-          page="/pokemon/aegislash"
+          page="/app/Aegislash"
           title="Aegislash"
           imageUrl="https://img.pokemondb.net/artwork/large/aegislash.jpg"
           backgroundColor="#B39DDB"
         />
 
         <LinkButton
-          page="/pokemon/tyranitar"
+          page="/app/Tyranitar"
           title="Tyranitar"
           imageUrl="https://img.pokemondb.net/artwork/large/tyranitar.jpg"
           backgroundColor="#A5D6A7"
@@ -46,28 +46,28 @@ export default function App() {
 
 
         <LinkButton
-          page="/pokemon/lycanroc"
+          page="/app/Lycanroc"
           title="Lycanroc"
           imageUrl="https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif"
           backgroundColor="#CE93D8"
         />
 
         <LinkButton
-          page="/pokemon/lucario"
+          page="/app/Lucario"
           title="Lucario"
           imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
           backgroundColor="#90CAF9"
         />
 
         <LinkButton
-          page="/pokemon/blaziken"
-          title="Blaziken"
-          imageUrl="https://img.pokemondb.net/artwork/large/blaziken.jpg"
+          page="/app/Greninja"
+          title="Greninja"
+          imageUrl="https://img.pokemondb.net/artwork/large/greninja.jpg"
           backgroundColor="#FF8A65"
         />
 
         <LinkButton
-          page="/pokemon/garchomp"
+          page="/app/Garchomp"
           title="Garchomp"
           imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
           backgroundColor="#81D4FA"
