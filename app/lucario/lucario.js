@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import LinkButton from '../components/LinkButton';
+import LinkButton from '../../components/LinkButton';
 
 export default function App() {
   return (
