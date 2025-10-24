@@ -53,7 +53,7 @@ export default function App() {
         />
 
         <LinkButton
-          page="/pokemon/lucario"
+          page="/lucario/lucario"
           title="Lucario"
           imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
           backgroundColor="#90CAF9"
