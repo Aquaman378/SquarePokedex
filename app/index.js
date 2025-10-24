@@ -60,9 +60,9 @@ export default function App() {
         />
 
         <LinkButton
-          page="/pokemon/blaziken"
-          title="Blaziken"
-          imageUrl="https://img.pokemondb.net/artwork/large/blaziken.jpg"
+          page="/pokemon/greninja"
+          title="Greninja"
+          imageUrl="https://img.pokemondb.net/artwork/large/greninja.jpg"
           backgroundColor="#FF8A65"
         />
 
