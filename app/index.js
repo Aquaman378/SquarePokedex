@@ -71,7 +71,7 @@ export default function App() {
           href="/Garchomp"
           title="Garchomp"
           imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
-          backgroundColor="#81D4FA"
+          backgroundColor={typeColors.dragon}
         />
       </View>
 
