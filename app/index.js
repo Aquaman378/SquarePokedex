@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import LinkButton from '../components/LinkButton';
 import { StyleSheet, Text, View, Image } from 'react-native';
+import typeColors from '../components/colorSheet';
 
 export default function App() {
   return (
@@ -10,64 +11,64 @@ export default function App() {
 
       <Image
         source={{
-          uri: 'https://thvnext.bing.com/th/id/OIP.u2IP_SZQg8F28UwkTnQivwHaC0?w=337&h=132&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3&ucfimg=1',
+          uri: 'https://github.com/tiago1820/pokemon-pi/blob/main/client/src/images/landing-page/pokemon3.jpg?raw=true',
         }}
         style={{ width: 410, height: 165, borderColor: 'black', borderWidth: 2 }}
       />
 
       <View style={styles.imageRow}>
         <LinkButton
-          page="/app/Pikachu"
+          href="/Pikachu"
           title="Pikachu"
           imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
-          backgroundColor="#FFEB3B"
+          backgroundColor={typeColors.electric}
         />
 
        <LinkButton
-          page="/app/Charmander"
+          href="/Charmander"
           title="Charmander"
           imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
-          backgroundColor="#FF7043"
+          backgroundColor={typeColors.fire}
         />
 
         <LinkButton
-          page="/app/Aegislash"
+          href="/Aegislash"
           title="Aegislash"
           imageUrl="https://img.pokemondb.net/artwork/large/aegislash.jpg"
-          backgroundColor="#B39DDB"
+          backgroundColor={typeColors.ghost}
         />
 
         <LinkButton
-          page="/app/Tyranitar"
+          href="/Tyranitar"
           title="Tyranitar"
           imageUrl="https://img.pokemondb.net/artwork/large/tyranitar.jpg"
-          backgroundColor="#A5D6A7"
+          backgroundColor={typeColors.rock}
         />
 
 
         <LinkButton
-          page="/app/Lycanroc"
+          href="/Lycanroc"
           title="Lycanroc"
           imageUrl="https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif"
-          backgroundColor="#CE93D8"
+          backgroundColor={typeColors.rock}
         />
 
         <LinkButton
-          page="/app/Lucario"
+          href="/Lucario"
           title="Lucario"
           imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
-          backgroundColor="#90CAF9"
+          backgroundColor={typeColors.fighting}
         />
 
         <LinkButton
-          page="/app/Greninja"
+          href="/Greninja"
           title="Greninja"
           imageUrl="https://img.pokemondb.net/artwork/large/greninja.jpg"
-          backgroundColor="#FF8A65"
+          backgroundColor={typeColors.water}
         />
 
         <LinkButton
-          page="/app/Garchomp"
+          href="/Garchomp"
           title="Garchomp"
           imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
           backgroundColor="#81D4FA"
