@@ -1,11 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
-<<<<<<< HEAD
-import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
-=======
 import LinkButton from '../components/LinkButton';
 import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
 import typeColors from '../components/colorSheet';
->>>>>>> faa43043a24894502408886012d885c09657cf28
 
 export default function App() {
   return (
@@ -22,28 +18,28 @@ export default function App() {
 
       <View style={styles.imageRow}>
         <LinkButton
-          page="/pokemon/pikachu"
+          page="Tyranitar/tyranitar"
           title="Pikachu"
           imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
           backgroundColor={typeColors.electric}
         />
 
        <LinkButton
-          page="/pokemon/charmander"
+          page="Tyranitar/tyranitar"
           title="Charmander"
           imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
           backgroundColor={typeColors.fire}
         />
 
         <LinkButton
-          page="/pokemon/aegislash"
+          page="Tyranitar/tyranitar"
           title="Aegislash"
           imageUrl="https://img.pokemondb.net/artwork/large/aegislash.jpg"
           backgroundColor={typeColors.steel}
         />
 
         <LinkButton
-          page="/pokemon/tyranitar"
+          page="tyranitar"
           title="Tyranitar"
           imageUrl="https://img.pokemondb.net/artwork/large/tyranitar.jpg"
           backgroundColor={typeColors.rock}
@@ -51,28 +47,28 @@ export default function App() {
 
 
         <LinkButton
-          page="/pokemon/lycanroc"
+          page="Tyranitar/tyranitar"
           title="Lycanroc"
           imageUrl="https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif"
           backgroundColor={typeColors.rock}
         />
 
         <LinkButton
-          page="/pokemon/lucario"
+          page="Tyranitar/tyranitar"
           title="Lucario"
           imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
           backgroundColor={typeColors.fighting}
         />
 
         <LinkButton
-          page="/pokemon/blaziken"
+          page="Tyranitar/tyranitar"
           title="Blaziken"
           imageUrl="https://img.pokemondb.net/artwork/large/blaziken.jpg"
           backgroundColor={typeColors.fire}
         />
 
         <LinkButton
-          page="/pokemon/garchomp"
+          page="Tyranitar/tyranitar"
           title="Garchomp"
           imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
           backgroundColor={typeColors.dragon}
