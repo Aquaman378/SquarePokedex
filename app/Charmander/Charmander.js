@@ -1,0 +1,18 @@
+import PokemonTemplate from '../../components/PokemonTemplate';
+
+export default function Charmander() {
+  const data = {
+    name: 'Charmander',
+    type1: 'Fire',
+    type2: 'Flying',
+    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png' },
+    evolutionMethod: 'Final evolution of Charmander',
+    funFact: 'Charmander breathes intense flames that can melt any material.',
+    evolutions: [
+      { name: 'Charmander', link: '/Charmander/Charmander', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png', type: 'fire' },
+      { name: 'Charmeleon', link: '/Charmander/Charmeleon', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png', type: 'fire' },
+      { name: 'Charizard', link: '/Charmander/Charizard', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png', type: 'fire' },
+    ],
+  };
+  return <PokemonTemplate route={{ params: data }} />;
+}

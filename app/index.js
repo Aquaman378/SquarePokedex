@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import LinkButton from '../components/LinkButton';
-import { StyleSheet, Text, View, Image, Pressable } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 import typeColors from '../components/colorSheet';
 
 export default function App() {
@@ -11,35 +11,35 @@ export default function App() {
 
       <Image
         source={{
-          uri: 'https://thvnext.bing.com/th/id/OIP.u2IP_SZQg8F28UwkTnQivwHaC0?w=337&h=132&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3&ucfimg=1',
+          uri: 'https://github.com/tiago1820/pokemon-pi/blob/main/client/src/images/landing-page/pokemon3.jpg?raw=true',
         }}
         style={{ width: 410, height: 165, borderColor: 'black', borderWidth: 2 }}
       />
 
       <View style={styles.imageRow}>
         <LinkButton
-          page="Tyranitar/tyranitar"
+          href="/Pikachu"
           title="Pikachu"
           imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
           backgroundColor={typeColors.electric}
         />
 
        <LinkButton
-          page="Tyranitar/tyranitar"
+          href="/Charmander"
           title="Charmander"
           imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
           backgroundColor={typeColors.fire}
         />
 
         <LinkButton
-          page="Tyranitar/tyranitar"
+          href="/Aegislash"
           title="Aegislash"
           imageUrl="https://img.pokemondb.net/artwork/large/aegislash.jpg"
-          backgroundColor={typeColors.steel}
+          backgroundColor={typeColors.ghost}
         />
 
         <LinkButton
-          page="tyranitar"
+          href="/Tyranitar"
           title="Tyranitar"
           imageUrl="https://img.pokemondb.net/artwork/large/tyranitar.jpg"
           backgroundColor={typeColors.rock}
@@ -47,28 +47,28 @@ export default function App() {
 
 
         <LinkButton
-          page="Tyranitar/tyranitar"
+          href="/Lycanroc"
           title="Lycanroc"
           imageUrl="https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif"
           backgroundColor={typeColors.rock}
         />
 
         <LinkButton
-          page="Tyranitar/tyranitar"
+          href="/Lucario"
           title="Lucario"
           imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
           backgroundColor={typeColors.fighting}
         />
 
         <LinkButton
-          page="Tyranitar/tyranitar"
-          title="Blaziken"
-          imageUrl="https://img.pokemondb.net/artwork/large/blaziken.jpg"
-          backgroundColor={typeColors.fire}
+          href="/Greninja"
+          title="Greninja"
+          imageUrl="https://img.pokemondb.net/artwork/large/greninja.jpg"
+          backgroundColor={typeColors.water}
         />
 
         <LinkButton
-          page="Tyranitar/tyranitar"
+          href="/Garchomp"
           title="Garchomp"
           imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
           backgroundColor={typeColors.dragon}
