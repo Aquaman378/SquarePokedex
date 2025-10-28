@@ -1,4 +1,6 @@
 import { Tabs } from 'expo-router';
+import typeColors from '../../components/colorSheet';
+
 
 export default function PikachuLayout() {
   return (
@@ -6,9 +8,9 @@ export default function PikachuLayout() {
       screenOptions={{
         headerShown: true,
         headerTitle: 'Pikachu',
-        headerStyle: { backgroundColor: '#FFEB3B' },
+        headerStyle: { backgroundColor: typeColors.electric[500] },
         headerTintColor: '#000',
-        tabBarActiveTintColor: '#FFEB3B',
+        tabBarActiveTintColor: typeColors.electric[500],
         tabBarInactiveTintColor: '#888',
         tabBarStyle: { backgroundColor: '#fff', justifyContent: 'flex-start' },
       }}

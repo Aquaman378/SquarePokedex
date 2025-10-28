@@ -1,37 +1,23 @@
 import { Tabs } from 'expo-router';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import typeColors from '../../components/colorSheet';
 
-export default function TabLayout() {
+export default function CharmanderLayout() {
   return (
-    <Tabs>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <MaterialIcons size={28} name="house.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="Charmander"
-        options={{
-          title: 'Charmander',
-          tabBarIcon: ({ color }) => <MaterialIcons size={28} name="fire" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="Charmeleon"
-        options={{
-          title: 'Charmeleon',
-          tabBarIcon: ({ color }) => <MaterialIcons size={28} name="fire" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="Charizard"
-        options={{
-          title: 'Charizard',
-          tabBarIcon: ({ color }) => <MaterialIcons size={28} name="fire" color={color} />,
-        }}
-      />
+    <Tabs
+      screenOptions={{
+        headerShown: true,
+        headerTitle: 'Charmander',
+        headerStyle: { backgroundColor: typeColors.fire[500] },
+        headerTintColor: '#000',
+        tabBarActiveTintColor: typeColors.fire[500],
+        tabBarInactiveTintColor: '#888',
+        tabBarStyle: { backgroundColor: '#fff', justifyContent: 'flex-start' },
+      }}
+    >
+      <Tabs.Screen name="Charizard" options={{ title: 'Charizard' }} />
+      <Tabs.Screen name="Charmander" options={{ title: 'Charmander' }} />
+      <Tabs.Screen name="Charmeleon" options={{ title: 'Charmeleon' }} />
+      <Tabs.Screen name="index" options={{ title: 'Main page' }} />
     </Tabs>
   );
 }

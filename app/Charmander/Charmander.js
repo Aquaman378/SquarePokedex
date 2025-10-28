@@ -4,16 +4,15 @@ export default function Charmander() {
   const data = {
     name: 'Charmander',
     type1: 'Fire',
-    type2: null,
-    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png' },
-    evolutionMethod: 'Level 16 to evolve into Charmeleon',
-    funFact: 'Charmander’s tail flame burns brighter when it is happy and weakens when it is tired.',
+    type2: 'Flying',
+    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png' },
+    evolutionMethod: 'Final evolution of Charmander',
+    funFact: 'Charmander breathes intense flames that can melt any material.',
     evolutions: [
-      { name: 'Charmeleon', link: 'Charmeleon', type: 'Fire', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png' },
-      { name: 'Charizard', link: 'Charizard', type: 'Fire', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png' },
-    ]
-
+      { name: 'Charmander', link: '/Charmander/Charmander', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png', type: 'fire' },
+      { name: 'Charmeleon', link: '/Charmander/Charmeleon', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png', type: 'fire' },
+      { name: 'Charizard', link: '/Charmander/Charizard', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png', type: 'fire' },
+    ],
   };
-
   return <PokemonTemplate route={{ params: data }} />;
 }
