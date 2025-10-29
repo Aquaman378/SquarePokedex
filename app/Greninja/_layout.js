@@ -17,8 +17,7 @@ export default function GreninjaLayout() {
       <Tabs.Screen name="Froakie" options={{ title: 'Froakie' }} />
       <Tabs.Screen name="Frogadier" options={{ title: 'Frogadier' }} />
       <Tabs.Screen name="Greninja" options={{ title: 'Greninja' }} />
-      <Tabs.Screen name="MegaGreninja" options={{ title: 'MegaGreninja' }} />
-      <Tabs.Screen name="AshGreninja" options={{ title: 'Ash Greninja'}}/>
+      
     </Tabs>
   );
 }
