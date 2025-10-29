@@ -18,28 +18,28 @@ export default function App() {
 
       <View style={styles.imageRow}>
         <LinkButton
-          href="/Pikachu"
+          href="/Pikachu/Pikachu"
           title="Pikachu"
           imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
           backgroundColor={typeColors.electric}
         />
 
        <LinkButton
-          href="/Charmander"
+          href="/Charmander/Charmander"
           title="Charmander"
           imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
           backgroundColor={typeColors.fire}
         />
 
         <LinkButton
-          href="/Aegislash"
+          href="/Aegislash/Aegislash"
           title="Aegislash"
           imageUrl="https://img.pokemondb.net/artwork/large/aegislash.jpg"
           backgroundColor={typeColors.ghost}
         />
 
         <LinkButton
-          href="/Tyranitar"
+          href="/Tyranitar/Tyranitar"
           title="Tyranitar"
           imageUrl="https://img.pokemondb.net/artwork/large/tyranitar.jpg"
           backgroundColor={typeColors.rock}
@@ -47,28 +47,28 @@ export default function App() {
 
 
         <LinkButton
-          href="/Lycanroc"
+          href="/Lycanroc/Lycanroc"
           title="Lycanroc"
           imageUrl="https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif"
           backgroundColor={typeColors.rock}
         />
 
         <LinkButton
-          href="/Lucario"
+          href="/Lucario/Lucario"
           title="Lucario"
           imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
           backgroundColor={typeColors.fighting}
         />
 
         <LinkButton
-          href="/Greninja"
+          href="/Greninja/Greninja"
           title="Greninja"
           imageUrl="https://img.pokemondb.net/artwork/large/greninja.jpg"
           backgroundColor={typeColors.water}
         />
 
         <LinkButton
-          href="/Garchomp"
+          href="/Garchomp/Garchomp"
           title="Garchomp"
           imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
           backgroundColor={typeColors.dragon}

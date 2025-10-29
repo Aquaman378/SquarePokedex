@@ -5,7 +5,7 @@ export default function Charizard() {
     name: 'Charizard',
     type1: 'Fire',
     type2: 'Flying',
-    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png' },
+    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png' },
     evolutionMethod: 'Final evolution of Charmander',
     funFact: 'Charizard breathes intense flames that can melt any material.',
     evolutions: [

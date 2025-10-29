@@ -5,7 +5,7 @@ export default function Charmeleon() {
     name: 'Charmeleon',
     type1: 'Fire',
     type2: null,
-    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png' },
+    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png' },
     evolutionMethod: 'Level 36 to evolve into Charizard',
     funFact: 'Charmeleon’s fiery tail intensifies during battle.',
     evolutions: [

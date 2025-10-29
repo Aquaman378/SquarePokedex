@@ -17,7 +17,6 @@ export default function CharmanderLayout() {
       <Tabs.Screen name="Charizard" options={{ title: 'Charizard' }} />
       <Tabs.Screen name="Charmander" options={{ title: 'Charmander' }} />
       <Tabs.Screen name="Charmeleon" options={{ title: 'Charmeleon' }} />
-      <Tabs.Screen name="index" options={{ title: 'Main page' }} />
     </Tabs>
   );
 }
