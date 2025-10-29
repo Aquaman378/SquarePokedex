@@ -41,7 +41,7 @@ export default function App() {
         <LinkButton
           href="/Tyranitar"
           title="Tyranitar"
-          imageUrl="https://img.pokemondb.net/artwork/large/tyranitar.jpg"
+          imageUrl="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png"
           backgroundColor={typeColors.rock}
         />
 
