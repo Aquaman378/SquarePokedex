@@ -5,7 +5,7 @@ export default function Charmander() {
     name: 'Charmander',
     type1: 'Fire',
     type2: 'Flying',
-    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png' },
+    shinyImage: { uri: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png' },
     evolutionMethod: 'Final evolution of Charmander',
     funFact: 'Charmander breathes intense flames that can melt any material.',
     evolutions: [

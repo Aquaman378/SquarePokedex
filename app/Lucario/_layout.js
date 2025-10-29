@@ -7,17 +7,17 @@ export default function PikachuLayout() {
     <Tabs
       screenOptions={{
         headerShown: true,
-        headerTitle: 'Pikachu',
-        headerStyle: { backgroundColor: typeColors.electric[500] },
+        headerTitle: 'Lucario',
+        headerStyle: { backgroundColor: typeColors.fighting },
         headerTintColor: '#000',
-        tabBarActiveTintColor: typeColors.electric,
+        tabBarActiveTintColor: typeColors.fighting,
         tabBarInactiveTintColor: '#888',
         tabBarStyle: { backgroundColor: '#fff', justifyContent: 'flex-start' },
       }}
     >
-      <Tabs.Screen name="Pichu" options={{ title: 'Pichu' }} />
-      <Tabs.Screen name="Pikachu" options={{ title: 'Pikachu' }} />
-      <Tabs.Screen name="Raichu" options={{ title: 'Raichu' }} />
+      <Tabs.Screen name="Riolu" options={{ title: 'Riolu' }} />
+      <Tabs.Screen name="Lucario" options={{ title: 'Lucario' }} />
+      <Tabs.Screen name="Mega Lucario" options={{ title: 'MegaLucario' }} />
       <Tabs.Screen name="index" options={{ title: 'Main page' }} />
     </Tabs>
   );
