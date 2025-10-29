@@ -10,7 +10,7 @@ export default function PikachuLayout() {
         headerTitle: 'Pikachu',
         headerStyle: { backgroundColor: typeColors.electric[500] },
         headerTintColor: '#000',
-        tabBarActiveTintColor: typeColors.electric[500],
+        tabBarActiveTintColor: typeColors.electric,
         tabBarInactiveTintColor: '#888',
         tabBarStyle: { backgroundColor: '#fff', justifyContent: 'flex-start' },
       }}
