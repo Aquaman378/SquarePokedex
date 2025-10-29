@@ -1,6 +1,6 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Charmeleon() {
+export default function Pupitar() {
   const data = {
     name: 'Pupitar',
     type1: 'Rock',
