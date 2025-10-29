@@ -20,21 +20,21 @@ export default function App() {
         <LinkButton
           href="/Pikachu/Pikachu"
           title="Pikachu"
-          imageUrl="https://img.pokemondb.net/artwork/large/pikachu.jpg"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
           backgroundColor={typeColors.electric}
         />
 
        <LinkButton
           href="/Charmander/Charmander"
           title="Charmander"
-          imageUrl="https://img.pokemondb.net/artwork/large/charmander.jpg"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
           backgroundColor={typeColors.fire}
         />
 
         <LinkButton
           href="/Aegislash/Aegislash"
           title="Aegislash"
-          imageUrl="https://img.pokemondb.net/artwork/large/aegislash.jpg"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png"
           backgroundColor={typeColors.ghost}
         />
 
@@ -49,28 +49,28 @@ export default function App() {
         <LinkButton
           href="/Lycanroc/Lycanroc"
           title="Lycanroc"
-          imageUrl="https://img.pokemondb.net/artwork/avif/lycanroc-midnight.avif"
+          imageUrl="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/745_f2.png"
           backgroundColor={typeColors.rock}
         />
 
         <LinkButton
           href="/Lucario/Lucario"
           title="Lucario"
-          imageUrl="https://img.pokemondb.net/artwork/large/lucario.jpg"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
           backgroundColor={typeColors.fighting}
         />
 
         <LinkButton
           href="/Greninja/Greninja"
           title="Greninja"
-          imageUrl="https://img.pokemondb.net/artwork/large/greninja.jpg"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png"
           backgroundColor={typeColors.water}
         />
 
         <LinkButton
           href="/Garchomp/Garchomp"
           title="Garchomp"
-          imageUrl="https://img.pokemondb.net/artwork/large/garchomp.jpg"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png"
           backgroundColor={typeColors.dragon}
         />
       </View>
