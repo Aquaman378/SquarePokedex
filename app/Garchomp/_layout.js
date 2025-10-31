@@ -18,7 +18,6 @@ export default function GarchompLayout() {
       <Tabs.Screen name="Garbite" options={{ title: 'Garbite' }} />
       <Tabs.Screen name="Garchomp" options={{ title: 'Garchomp' }} />
       <Tabs.Screen name="MegaGarchomp" options={{ title: 'Mega Garchomp'}}/>
-      <Tabs.Screen name="index" options={{ title: 'index'}}/>
     </Tabs>
   );
 }
