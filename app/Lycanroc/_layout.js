@@ -6,7 +6,7 @@ export default function LycanrocLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Lycanroc',
         headerStyle: { backgroundColor: typeColors.rock },
         headerTintColor: '#000',
