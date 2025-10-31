@@ -5,7 +5,7 @@ export default function Greninja() {
     name: 'Greninja',
     type1: 'Water',
     type2: 'Dark',
-    shinyImage: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/658.png' },
+    shinyImage: { uri: '' },
     evolutionMethod: 'Evolves at level 36',
     funFact: 'Greninja has a long enough tounge that it wraps around their neck making a scarf.',
     evolutions: [
