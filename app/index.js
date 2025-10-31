@@ -32,7 +32,7 @@ export default function App() {
         />
 
         <LinkButton
-          href="/Aegislash/Aegislash"
+          href="/Aegislash/ShieldAegislash"
           title="Aegislash"
           imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png"
           backgroundColor={typeColors.ghost}
