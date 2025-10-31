@@ -2,11 +2,11 @@ import { Tabs } from 'expo-router';
 import typeColors from '../../components/colorSheet';
 
 
-export default function PikachuLayout() {
+export default function LucarioLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Lucario',
         headerStyle: { backgroundColor: typeColors.fighting },
         headerTintColor: '#000',
