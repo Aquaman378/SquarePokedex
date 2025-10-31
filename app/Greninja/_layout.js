@@ -5,7 +5,7 @@ export default function GreninjaLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Greninja',
         headerStyle: { backgroundColor: typeColors.water[500] },
         headerTintColor: '#000',
