@@ -1,6 +1,6 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Charizard() {
+export default function Rockruff() {
   const data = {
     name: 'Rockruff',
     type1: 'Rock',

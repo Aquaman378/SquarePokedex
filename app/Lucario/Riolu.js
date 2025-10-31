@@ -1,6 +1,6 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Charizard() {
+export default function Riolu() {
   const data = {
     name: 'Riolu',
     type1: 'Fighting',

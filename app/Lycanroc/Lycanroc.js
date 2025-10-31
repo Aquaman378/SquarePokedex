@@ -1,11 +1,11 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Charizard() {
+export default function Lycanroc() {
   const data = {
     name: 'Lycanroc',
     type1: 'Rock',
     type2: null,
-    shinyImage: { uri: 'https://img.pokemondb.net/artwork/large/lycanroc-midnight.jpg' },
+    shinyImage: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/745_f2.png' },
     evolutionMethod: 'evolves at level 25 during a time of day (day,night,dusk)',
     funFact: 'Lycanroc is a Rock-type Pokémon with three different forms (Midday, Midnight, and Dusk) that depend on how it evolves from Rockruff',
     evolutions: [

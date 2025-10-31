@@ -1,8 +1,8 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Charizard() {
+export default function MegaLucario() {
   const data = {
-    name: 'Lucario',
+    name: 'Mega Lucario',
     type1: 'Fighting',
     type2: 'Steel',
     shinyImage: { uri: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/600318f01f6fb95bbdaaebfd21644d1caefd43a7.png' },
