@@ -5,7 +5,7 @@ export default function AegislashLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Aegislash',
         headerStyle: { backgroundColor: typeColors.steel[500] },
         headerTintColor: '#000',
@@ -16,7 +16,8 @@ export default function AegislashLayout() {
     >
       <Tabs.Screen name="Honedge" options={{ title: 'Honedge' }} />
       <Tabs.Screen name="Doublade" options={{ title: 'Doublade' }} />
-      <Tabs.Screen name="Aegislash" options={{ title: 'Aegislash' }} />
+      <Tabs.Screen name="ShieldAegislash" options={{ title: 'Shield Forme Aegislash' }} />
+      <Tabs.Screen name="BladeAegislash" options={{ title: 'Blade Forme Aegislash'}} />
     </Tabs>
   );
 }

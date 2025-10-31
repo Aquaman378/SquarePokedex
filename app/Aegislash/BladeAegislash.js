@@ -2,12 +2,12 @@ import PokemonTemplate from '../../components/PokemonTemplate';
 
 export default function Aegislash() {
   const data = {
-    name: 'Honedge',
+    name: 'Aegislash',
     type1: 'Steel',
     type2: 'Ghost',
-    shinyImage: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/679.png' },
-    evolutionMethod: 'No evolution, Honedge is caught in the wild',
-    funFact: 'Honedge is apparently made when a spirit inhabits a sword. Grabbing its hilt will cause its blue cloth to entangle around the user and suck their life force.',
+    shinyImage: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/681_f2.png' },
+    evolutionMethod: 'Use a Dusk Stone on a Doublade, no specific Level needed; or use an attacking move in battle with Shield Forme Aegislash',
+    funFact: 'With the strength and weight of its blade, Aegislash in this form can cleave any opponent. It once brought a king down with his kingdom through life drainage.',
     evolutions: [
       { name: 'Honedge', link: '/Aegislash/Honedge', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/679.png', type: 'steel' },
       { name: 'Doublade', link: '/Aegislash/Doublade', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/680.png', type: 'steel' },
@@ -15,6 +15,5 @@ export default function Aegislash() {
       { name: 'Blade Forme Aegislash', link: '/Aegislash/BladeAegislash', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/681_f2.png', type: 'steel' },
     ],
   };
-
   return <PokemonTemplate route={{ params: data }} />;
 }

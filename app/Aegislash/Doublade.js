@@ -11,7 +11,8 @@ export default function Aegislash() {
     evolutions: [
       { name: 'Honedge', link: '/Aegislash/Honedge', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/679.png', type: 'steel' },
       { name: 'Doublade', link: '/Aegislash/Doublade', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/680.png', type: 'steel' },
-      { name: 'Aegislash', link: '/Aegislash/Aegislash', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png', type: 'steel' },
+      { name: 'Shield Forme Aegislash', link: '/Aegislash/ShieldAegislash', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png', type: 'steel' },
+      { name: 'Blade Forme Aegislash', link: '/Aegislash/BladeAegislash', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/681_f2.png', type: 'steel' },
     ],
   };
 

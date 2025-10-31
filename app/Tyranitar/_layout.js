@@ -5,7 +5,7 @@ export default function TyranitarLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Tyranitar',
         headerStyle: { backgroundColor: typeColors.rock[500] },
         headerTintColor: '#000',
