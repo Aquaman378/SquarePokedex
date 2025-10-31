@@ -6,7 +6,7 @@ export default function PikachuLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Lucario',
         headerStyle: { backgroundColor: typeColors.fighting },
         headerTintColor: '#000',
