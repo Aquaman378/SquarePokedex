@@ -2,15 +2,15 @@ import { Tabs } from 'expo-router';
 import typeColors from '../../components/colorSheet';
 
 
-export default function PikachuLayout() {
+export default function LycanrocLayout() {
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
-        headerTitle: 'Lucario',
-        headerStyle: { backgroundColor: typeColors.fighting },
+        headerTitle: 'Lycanroc',
+        headerStyle: { backgroundColor: typeColors.rock },
         headerTintColor: '#000',
-        tabBarActiveTintColor: typeColors.fighting,
+        tabBarActiveTintColor: typeColors.rock,
         tabBarInactiveTintColor: '#888',
         tabBarStyle: { backgroundColor: '#fff', justifyContent: 'flex-start' },
       }}

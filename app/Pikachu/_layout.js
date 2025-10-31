@@ -6,7 +6,7 @@ export default function PikachuLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Pikachu',
         headerStyle: { backgroundColor: typeColors.electric[500] },
         headerTintColor: '#000',

@@ -1,6 +1,6 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Charizard() {
+export default function Lucario() {
   const data = {
     name: 'Lucario',
     type1: 'Fighting',

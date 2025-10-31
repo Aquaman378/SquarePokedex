@@ -5,7 +5,7 @@ export default function CharmanderLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Charmander',
         headerStyle: { backgroundColor: typeColors.fire[500] },
         headerTintColor: '#000',

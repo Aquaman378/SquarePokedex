@@ -2,7 +2,7 @@ import { Tabs } from 'expo-router';
 import typeColors from '../../components/colorSheet';
 
 
-export default function PikachuLayout() {
+export default function LucarioLayout() {
   return (
     <Tabs
       screenOptions={{

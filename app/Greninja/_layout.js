@@ -5,7 +5,7 @@ export default function GreninjaLayout() {
   return (
     <Tabs
       screenOptions={{
-        headerShown: true,
+        headerShown: false,
         headerTitle: 'Greninja',
         headerStyle: { backgroundColor: typeColors.water[500] },
         headerTintColor: '#000',
@@ -18,7 +18,6 @@ export default function GreninjaLayout() {
       <Tabs.Screen name="Frogadier" options={{ title: 'Frogadier' }} />
       <Tabs.Screen name="Greninja" options={{ title: 'Greninja' }} />
       <Tabs.Screen name="Ash Greninja" options={{ title: 'AshGreninja'}}/>
-      <Tabs.Screen name="index" options={{ title: 'index'}}/>
     </Tabs>
   );
 }
