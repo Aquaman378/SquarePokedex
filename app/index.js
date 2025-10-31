@@ -45,19 +45,18 @@ export default function App() {
           backgroundColor={typeColors.rock}
         />
 
+        <LinkButton
+          href="/Lucario/Lucario"
+          title="Lucario"
+          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
+          backgroundColor={typeColors.fighting}
+        />
 
         <LinkButton
           href="/Lycanroc/Lycanroc"
           title="Lycanroc"
           imageUrl="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/745_f2.png"
           backgroundColor={typeColors.rock}
-        />
-
-        <LinkButton
-          href="/Lucario/Lucario"
-          title="Lucario"
-          imageUrl="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png"
-          backgroundColor={typeColors.fighting}
         />
 
         <LinkButton
