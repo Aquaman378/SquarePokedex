@@ -2,7 +2,7 @@ import PokemonTemplate from '../../components/PokemonTemplate';
 
 export default function Greninja() {
   const data = {
-    name: 'Greninja',
+    name: 'Ash Greninja',
     type1: 'Water',
     type2: 'Dark',
     shinyImage: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/658_f2.png' },
