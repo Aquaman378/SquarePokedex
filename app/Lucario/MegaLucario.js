@@ -9,9 +9,9 @@ export default function Charizard() {
     evolutionMethod: 'need a mega evolution stone for Lucario',
     funFact: 'it can focus its powerful aura to become unaffected by the thoughts and feelings of others',
     evolutions: [
-      { name: 'Riolu', link: '/Lucario/Riolu', image: 'https://static.wikia.nocookie.net/pokemonempyrean/images/6/66/447.png/revision/latest?cb=20200825125040', type: 'Fighting' },
-      { name: 'Lucario', link: '/Lucario/Lucario', image: 'https://art.pixilart.com/68404e28f32dbed.png', type: 'Fighting' },
-      { name: 'Mega Lucario', link: '/Lucario/MegaLucario', image: 'https://www.nicepng.com/png/full/39-397478_mega-lucario-pixel-art-pokemon-mega-lucario.png', type: 'Fighting' },
+      { name: 'Riolu', link: '/Lucario/Riolu', image: 'https://img.pokemondb.net/artwork/large/riolu.jpg', type: 'Fighting' },
+      { name: 'Lucario', link: '/Lucario/Lucario', image: 'https://upload.wikimedia.org/wikipedia/en/9/95/Pok%C3%A9mon_Lucario_art.png', type: 'Fighting' },
+      { name: 'Mega Lucario', link: '/Lucario/MegaLucario', image: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/600318f01f6fb95bbdaaebfd21644d1caefd43a7.png', type: 'Fighting' },
     ],
   };
   return <PokemonTemplate route={{ params: data }} />;
