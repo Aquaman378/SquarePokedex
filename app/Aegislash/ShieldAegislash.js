@@ -1,6 +1,6 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
 
-export default function Aegislash() {
+export default function ShieldAegislash() {
   const data = {
     name: 'Aegislash',
     type1: 'Steel',
