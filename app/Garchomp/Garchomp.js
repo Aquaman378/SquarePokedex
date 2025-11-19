@@ -16,5 +16,7 @@ export default function Garchomp() {
 
     ],
   };
+
+  
   return <PokemonTemplate route={{ params: data }} />;
 }
