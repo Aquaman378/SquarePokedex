@@ -1,0 +1,7 @@
+import { Image } from 'expo-router';
+const typeColors = {
+  rockruff : <Image source={require('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png')} />,
+  
+}
+
+export default typeColors;
