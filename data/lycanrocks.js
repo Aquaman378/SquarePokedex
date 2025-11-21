@@ -22,7 +22,7 @@ const typePhotos = {
   pichu: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png',
   pikachu: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
   raichu: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png',
-  larivitar: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/246.png',
+  larvitar: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/246.png',
   megaTyranitar: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/47593c73cdf2c006688384c736711a526f5ea267.png',
   pupitar: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/247.png',
   tyranitar: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png'
