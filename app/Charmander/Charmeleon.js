@@ -16,11 +16,5 @@ export default function Charmeleon() {
   };
   
 
-  return {
-    component: <PokemonTemplate route={{ params: data }} />,
-    //battleStats: {
-      //hp: 58,
-      //attack: 64,
-    //},
-  };
+  return <PokemonTemplate route={{ params: data }} />;
 }

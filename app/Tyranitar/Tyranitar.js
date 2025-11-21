@@ -16,5 +16,7 @@ export default function Tyranitar() {
     ],
   };
 
-  return <PokemonTemplate route={{ params: data }} />;
+  return (
+      <PokemonTemplate route={{ params: data }} />
+  );
 }

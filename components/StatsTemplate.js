@@ -1,30 +1,31 @@
-import {Text, View, StyleSheet } from 'react-native';
+import {Text, View, StyleSheet, Image} from 'react-native';
+import typeColors from './colorSheet';
 
 
 
+export default function StatsTemplate({battle}) {
+ const  {hp, atk, def, spat, spdef, spd, pokeName, pokePic } = battle.params;
 
-export default function App({battle}) {
- const{hp, atk, def, spat, spdef} = battle.param
- const{pokeName} = battle.param
- const{pokePic} = battle.param
-  return (
+ return (
   <View style={styles.container}>
       <Text style={styles.pokemonName}> /\/\/\/\/\/\/\/\/\/\/\/\{pokeName}/\/\/\/\/\/\/\/\/\/\/\/\
        </Text>
       <View style={styles.pokeBox}>
-        <Image Source={pokePic} style={styles.pokemon} />
+        <Image source={pokePic} style={styles.pokemon} resizeMode='contain'/>
       </View>
         <View style={styles.statsBox}>
           <Text style={styles.stats}>---------------------------stats--------------------------- </Text>
-          <Text> Hp: {hp}</Text>
+          <Text> Health: {hp} </Text>
           <Text> </Text>
-          <Text> Attack: {atk}</Text>
+          <Text> Attack: {atk} </Text>
           <Text> </Text>
-          <Text> Defence: {def}</Text>
+          <Text> Defense: {def} </Text>
           <Text> </Text>
-          <Text> Special Attack: {spat}</Text>
+          <Text> Special Attack: {spat} </Text>
           <Text> </Text>
-          <Text> Special Defence: {spdef}</Text>
+          <Text> Special Defense: {spdef} </Text>
+          <Text> </Text>
+          <Text> Speed: {spd} </Text>
         </View>
 
 
@@ -52,9 +53,8 @@ const styles = StyleSheet.create({
    justifyContent: 'collumn',
   },
   pokemon: {
-   height: 50,
-   width: 50,
-   backgroundColor: 'green',
+   height: 200,
+   width: 200,
   },
   pokemonName: {
    height: 20,
