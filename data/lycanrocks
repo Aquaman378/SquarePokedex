@@ -1,4 +1,4 @@
-const typeColors = {
+const typePhotos = {
   rockruff : 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png',
   lycanroc : 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/745_f2.png',
   bladeAegislash : 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/681_f2.png',
