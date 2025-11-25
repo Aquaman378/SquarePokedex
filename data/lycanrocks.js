@@ -4,7 +4,7 @@ const typePhotos = {
   bladeAegislash : 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/681_f2.png',
   doublade: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/680.png',
   honedge: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/679.png',
-  shieldAegislash: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.pn',
+  shieldAegislash: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png',
   charmander: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
   charizard: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png',
   charmeleon: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
