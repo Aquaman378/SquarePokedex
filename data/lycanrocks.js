@@ -29,3 +29,5 @@ const typePhotos = {
 }
 
 export default typePhotos;
+
+//aidfpsoidhfpsahfjpdasfjaposfjdopasfjopadfdiujasfdpa;
