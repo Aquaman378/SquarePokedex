@@ -8,24 +8,24 @@ export default function StatsTemplate({battle}) {
 
  return (
   <View style={styles.container}>
-      <Text style={styles.pokemonName}> /\/\/\/\/\/\/\/\/\/\/\/\{pokeName}/\/\/\/\/\/\/\/\/\/\/\/\
+      <Text style={styles.pokemonName}>{pokeName}
        </Text>
       <View style={styles.pokeBox}>
         <Image source={pokePic} style={styles.pokemon} resizeMode='contain'/>
       </View>
         <View style={styles.statsBox}>
-          <Text style={styles.stats}>---------------------------stats--------------------------- </Text>
-          <Text> Health: {hp} </Text>
+          <Text style={styles.stats}>----------------------------------------------STATS---------------------------------------------------------------------- </Text>
+          <Text style={styles.statsNum}> Health: {hp} </Text>
           <Text> </Text>
-          <Text> Attack: {atk} </Text>
+          <Text style={styles.statsNum}> Attack: {atk} </Text>
           <Text> </Text>
-          <Text> Defense: {def} </Text>
+          <Text style={styles.statsNum}> Defense: {def} </Text>
           <Text> </Text>
-          <Text> Special Attack: {spat} </Text>
+          <Text style={styles.statsNum}> Special Attack: {spat} </Text>
           <Text> </Text>
-          <Text> Special Defense: {spdef} </Text>
+          <Text style={styles.statsNum}> Special Defense: {spdef} </Text>
           <Text> </Text>
-          <Text> Speed: {spd} </Text>
+          <Text style={styles.statsNum}> Speed: {spd} </Text>
         </View>
 
 
@@ -44,29 +44,35 @@ const styles = StyleSheet.create({
    backgroundColor: 'pink',
    justifyContent: 'center',
    alignItems: 'center',
-   height: 220,
+   height: 300,
   },
   statsBox: {
-   height: 230,
-   width: 550,
+   height: 380,
+   width: 1250,
    backgroundColor: 'yellow',
    justifyContent: 'collumn',
   },
+  statsNum:{
+    fontSize: 20,
+  },
   pokemon: {
-   height: 200,
-   width: 200,
+   height: 300,
+   width: 300,
   },
   pokemonName: {
-   height: 20,
-   width: 550,
+   height: 60,
+   width: 1080,
+   fontSize: 50,
    backgroundColor: 'lime',
    justifyContent: 'center',
+   textAlign: 'center',
  },
   stats: {
-   height: 20,
-   width: 550,
+   height: 30,
+   width: 1080,
    backgroundColor: 'cyan',
-   justifyContent: 'center'
+   justifyContent: 'center',
+   fontSize:25,
   },
 })
 
