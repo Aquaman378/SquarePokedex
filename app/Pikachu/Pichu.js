@@ -1,6 +1,8 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
-import typePhotos from '../../data/lycanrocks';
+import {typePhotos, pokeStats} from '../../data/lycanrocks';
+
 export default function Pichu() {
+  console.log(pokeStats.tyranitar.hp)
   const data = {
     name: 'Pichu',
     type1: 'Electric',
