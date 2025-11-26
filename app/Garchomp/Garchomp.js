@@ -1,4 +1,5 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
+import {typePhotos, pokeStats} from '../../data/lycanrocks';
 
 export default function Garchomp() {
   const data = {
