@@ -26,7 +26,7 @@
   megaTyranitar: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/47593c73cdf2c006688384c736711a526f5ea267.png',
   pupitar: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/247.png',
   tyranitar: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png'
-}//Why put the name of the pokemon in the file when you know the name of the pokemon you want the stats from? It quite litterally makes no sense and adding the names is a complete waste of time that could be better served elsewhere. Also, my code isn't wrong or errored, it functions exactly like it is supposed to. I know I didn't mess it up because I submitted it into github. Jalon was the one who mostlikely messed up because it's not in master. I know it wasn't me because I FINISHED EVERYTHING WEDNESDAY LASAT WEEK. I'm done, and that's it
+}                                                                                                                                                        //rant incoming                                                                                     Why put the name of the pokemon in the file when you know the name of the pokemon you want the stats from? It quite litterally makes no sense and adding the names is a complete waste of time that could be better served elsewhere. Also, my code isn't wrong or errored, it functions exactly like it is supposed to. I know I didn't mess it up because I submitted it into github. Jalon was the one who mostlikely messed up because it's not in master. I know it wasn't me because I FINISHED EVERYTHING WEDNESDAY LASAT WEEK. I'm done, and that's it
 const pokeStats = {
   tyranitar: {
     hp: 100,
