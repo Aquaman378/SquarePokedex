@@ -15,6 +15,7 @@ export default function Charmeleon() {
       { name: 'Charizard', link: '/Charmander/Charizard', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png', type: 'fire' },
     ],
   };
+  
 
   return <PokemonTemplate route={{ params: data }} />;
 }
