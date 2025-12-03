@@ -35,8 +35,9 @@ const pokeStats = {
     spatk: 95,
     spdef: 100,
     spd: 61,
+    name: 'Tyranitar',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png',
-    name: 'Tyranitar'
+    
   },
   larvitar: {
     hp: 50,
@@ -45,8 +46,9 @@ const pokeStats = {
     spatk: 45,
     spdef: 50,
     spd: 41,
+    name: 'Larvitar',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/246.png',
-    name: 'Larvitar'
+    
   },
   pupitar: {
     hp: 70,
@@ -55,8 +57,9 @@ const pokeStats = {
     spatk: 65,
     spdef: 70,
     spd: 51,
+    name: 'Pupitar',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/247.png',
-    name: 'Pupitar'
+    
   },
   megaTyranitar: {
     hp: 100,
@@ -65,8 +68,9 @@ const pokeStats = {
     spatk: 95,
     spdef: 120,
     spd: 71,
+    name: 'Mega Tyranitar',
     photo: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/47593c73cdf2c006688384c736711a526f5ea267.png',
-    name: 'Mega Tyranitar'
+    
   },
   pichu: {
     hp: 20,
@@ -75,8 +79,9 @@ const pokeStats = {
     spatk: 35,
     spdef: 35,
     spd: 60,
+    name: 'Pichu',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png',
-    name: 'Pichu'
+    
   },
   pikachu: {
     hp: 35,
@@ -85,8 +90,9 @@ const pokeStats = {
     spatk: 50,
     spdef: 50,
     spd: 90,
+    name: 'Pikachu',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
-    name: 'Pikachu'
+    
   },
   raichu: {
     hp: 60,
@@ -95,8 +101,9 @@ const pokeStats = {
     spatk: 90,
     spdef: 80,
     spd: 110,
+    name: 'Raichu',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png',
-    name: 'Raichu'
+    
   },
   lycanroc: {
     hp: 85,
@@ -105,8 +112,9 @@ const pokeStats = {
     spatk: 55,
     spdef: 75,
     spd: 82,
+    name: 'Lycanroc',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/745_f2.png',
-    name: 'Lycanroc'
+    
   },
   rockruff: {
     hp: 45,
@@ -115,8 +123,9 @@ const pokeStats = {
     spatk: 30,
     spdef: 40,
     spd: 60,
+    name: 'Rockruff',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png',
-    name: 'Rockruff'
+    
   },
   riolu: {
     hp: 40,
@@ -125,8 +134,9 @@ const pokeStats = {
     spatk: 35,
     spdef: 40,
     spd: 60,
+    name: 'Riolu',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/447.png',
-    name: 'Riolu'
+    
   },
   lucario: {
     hp: 70,
@@ -135,8 +145,9 @@ const pokeStats = {
     spatk: 115,
     spdef: 70,
     spd: 90,
+    name: 'Lucario',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448.png',
-    name: 'Lucario'
+    
   },
   megaLucario: {
     hp: 70,
@@ -145,8 +156,9 @@ const pokeStats = {
     spatk: 140,
     spdef: 70,
     spd: 112,
+    name: 'Mega Lucario',
     photo: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/600318f01f6fb95bbdaaebfd21644d1caefd43a7.png',
-    name: 'Mega Lucario'
+    
   },
   greninja: {
     hp: 72,
@@ -155,8 +167,9 @@ const pokeStats = {
     spatk: 103,
     spdef: 71,
     spd: 122,
+    name: 'Greninja',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/658.png',
-    name: 'Greninja'
+    
   },
   froakie: {
     hp: 41,
@@ -165,8 +178,9 @@ const pokeStats = {
     spatk: 62,
     spdef: 44,
     spd: 71,
+    name: 'Froakie',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/656.png',
-    name: 'Froakie'
+    
   },
   ashGreninja: {
     hp: 72,
@@ -175,8 +189,9 @@ const pokeStats = {
     spatk: 153,
     spdef: 71,
     spd: 132,
+    name: 'Ash-Greninja',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/658_f2.png',
-    name: 'Ash-Greninja'
+    
   },
   frogadier: {
     hp: 54,
@@ -185,8 +200,9 @@ const pokeStats = {
     spatk: 83,
     spdef: 56,
     spd: 97,
+    name: 'Frogadier',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/657.png',
-    name: 'Frogadier'
+    
   },
   gible: {
     hp: 58,
@@ -195,8 +211,9 @@ const pokeStats = {
     spatk: 40,
     spdef: 45,
     spd: 42,
+    name: 'Gible',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/443.png',
-    name: 'Gible'
+    
   },
   gabite: {
     hp: 68,
@@ -205,8 +222,9 @@ const pokeStats = {
     spatk: 50,
     spdef: 55,
     spd: 82,
+    name: 'Gabite',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/444.png',
-    name: 'Gabite'
+    
   },
   garchomp: {
     hp: 108,
@@ -215,8 +233,9 @@ const pokeStats = {
     spatk: 80,
     spdef: 85,
     spd: 102,
+    name: 'Garchomp',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445.png',
-    name: 'Garchomp'
+    
   },
   megaGarchomp: {
     hp: 108,
@@ -225,8 +244,9 @@ const pokeStats = {
     spatk: 120,
     spdef: 95,
     spd: 92,
+    name: 'Mega Garchomp',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445_f2.png',
-    name: 'Mega Garchomp'
+    
   },
   charmander: {
     hp: 39,
@@ -235,8 +255,9 @@ const pokeStats = {
     spatk: 60,
     spdef: 50,
     spd: 65,
+    name: 'Charmander',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png',
-    name: 'Charmander'
+    
   },
   charmeleon: {
     hp: 58,
@@ -245,8 +266,9 @@ const pokeStats = {
     spatk: 80,
     spdef: 65,
     spd: 80,
+    name: 'Charmeleon',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png',
-    name: 'Charmeleon'
+    
   },
   charizard: {
     hp: 78,
@@ -255,8 +277,9 @@ const pokeStats = {
     spatk: 109,
     spdef: 85,
     spd: 100,
+    name: 'Charizard',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png',
-    name: 'Charizard'
+    
   },
   bladeAegislash: {
     hp: 60,
@@ -265,8 +288,9 @@ const pokeStats = {
     spatk: 140,
     spdef: 50,
     spd: 60,
+    name: 'Aegislash (Blade Forme)',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/681_f2.png',
-    name: 'Aegislash (Blade Forme)'
+    
   },
   doublade: {
     hp: 59,
@@ -275,8 +299,9 @@ const pokeStats = {
     spatk: 45,
     spdef: 49,
     spd: 35,
+    name: 'Doublade',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full680.png',
-    name: 'Doublade'
+    
   },
   honedge: {
     hp: 45,
@@ -285,8 +310,9 @@ const pokeStats = {
     spatk: 35,
     spdef: 37,
     spd: 28,
+    name: 'Honedge',
     photo: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/679.png',
-    name: 'Honedge'
+    
   },
   shieldAegislash: {
     hp: 60,
@@ -295,8 +321,9 @@ const pokeStats = {
     spatk: 50,
     spdef: 140,
     spd: 60,
+    name: 'Aegislash (Shield Forme)',
     photo: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png',
-    name: 'Aegislash (Shield Forme)'
+    
   }
 };
 export  {pokeStats, typePhotos};
