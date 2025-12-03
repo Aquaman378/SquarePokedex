@@ -1,5 +1,5 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
-import typePhotos from '../../data/lycanrocks';
+import {typePhotos, pokeStats} from '../../data/lycanrocks';
 export default function Froakie() {
   const data = {
     name: 'Froakie',
