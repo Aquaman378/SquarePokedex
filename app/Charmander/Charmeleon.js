@@ -1,4 +1,5 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
+import {typePhotos, pokeStats} from '../../data/lycanrocks';
 
 export default function Charmeleon() {
   const data = {
@@ -14,6 +15,7 @@ export default function Charmeleon() {
       { name: 'Charizard', link: '/Charmander/Charizard', image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png', type: 'fire' },
     ],
   };
+  
 
   return <PokemonTemplate route={{ params: data }} />;
 }

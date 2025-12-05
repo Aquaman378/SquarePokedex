@@ -1,17 +1,17 @@
 import PokemonTemplate from '../../components/PokemonTemplate';
-
+import {typePhotos, pokeStats} from '../../data/lycanrocks';
 export default function MegaLucario() {
   const data = {
     name: 'Mega Lucario',
     type1: 'Fighting',
     type2: 'Steel',
-    shinyImage: { uri: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/600318f01f6fb95bbdaaebfd21644d1caefd43a7.png' },
+    shinyImage: { uri: typePhotos.megaLucario },
     evolutionMethod: 'need a mega evolution stone for Lucario',
     funFact: 'it can focus its powerful aura to become unaffected by the thoughts and feelings of others',
     evolutions: [
-      { name: 'Riolu', link: '/Lucario/Riolu', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/447.png', type: 'Fighting' },
-      { name: 'Lucario', link: '/Lucario/Lucario', image: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448.png', type: 'Fighting' },
-      { name: 'Mega Lucario', link: '/Lucario/MegaLucario', image: 'https://sg.portal-pokemon.com/play/resources/pokedex/img/pm/600318f01f6fb95bbdaaebfd21644d1caefd43a7.png', type: 'Fighting' },
+      { name: 'Riolu', link: '/Lucario/Riolu', image: typePhotos.riolu, type: 'Fighting' },
+      { name: 'Lucario', link: '/Lucario/Lucario', image: typePhotos.lucario, type: 'Fighting' },
+      { name: 'Mega Lucario', link: '/Lucario/MegaLucario', image: typePhotos.megaLucario, type: 'Fighting' },
     ],
   };
   return <PokemonTemplate route={{ params: data }} />;

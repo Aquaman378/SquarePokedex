@@ -18,6 +18,7 @@ export default function TyranitarLayout() {
       <Tabs.Screen name="Pupitar" options={{ title: 'Pupitar' }} />
       <Tabs.Screen name="Tyranitar" options={{ title: 'Tyranitar' }} />
       <Tabs.Screen name="MegaTyranitar" options={{ title: 'Mega Tyranitar'}} />
+      <Tabs.Screen name="TyranitarStats" options={{ title: 'Tyranitar Stats'}} />
     </Tabs>
   );
 }
