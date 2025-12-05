@@ -17,5 +17,9 @@ export default function MegaTyranitar() {
     ],
   };
 
+  const battle = {
+    type: data.type1
+  }
+
   return <PokemonTemplate route={{ params: data }} />;
 }

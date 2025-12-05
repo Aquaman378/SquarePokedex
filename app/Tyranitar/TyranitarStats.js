@@ -8,9 +8,10 @@ export default function TyranitarStats(){
         spat: 12,
         spdef: 12,
         spd: 12,
+        type: 'rock',
         pokeName: 'Tyranitar',
         pokePic: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png' },
-        type1: 'Rock',
+        
     }
 
     return <StatsTemplate battle={{ params: placeholder }}/>
