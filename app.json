@@ -5,6 +5,9 @@
       "expo-router"
     ],
     "name": "SquarePokedex",
-    "slug": "SquarePokedex"
+    "slug": "SquarePokedex",
+    "android": {
+      "package": "com.anonymous.SquarePokedex"
+    }
   }
 }
