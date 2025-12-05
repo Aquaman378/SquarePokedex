@@ -3,8 +3,8 @@ import { StyleSheet, SafeAreaView, Button, Text, View } from 'react-native';
 const crit = Math.floor(Math.random * 16) + 1;
 let q=false;
 const type = (ATK,SPATK,DEF,SPDEF,BP,isSpecial) => {
-  if(user.getWeak()==opp.getType)
-  q=true;
+  // if(user.getWeak()==opp.getType)
+  // q=true;
   if (isSpecial) {
     ATK = SPATK;
     DEF = SPDEF;
