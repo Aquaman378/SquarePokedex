@@ -1,5 +1,5 @@
 import { StyleSheet, SafeAreaView, Button, Text, View } from 'react-native';
-
+// need pAtk, oDef, pSpatk, oSpdef, isSpecial, BP
 let ATK = 0;
 let DEF = 0;
 const BP = 10;
