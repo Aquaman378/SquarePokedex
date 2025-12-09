@@ -4,14 +4,16 @@ import typeColors from './colorSheet';
 
 
 export default function StatsTemplate({battle}) {
- const  {hp, atk, def, spat, spdef, spd, type, pokeName, pokePic } = battle.params;
+ const  {hp, atk, def, spat, spdef, spd, type1, type2, pokeName, pokePic } = battle.params;
+ const backgroundType = typeColors[type1];
+ const backgroundType2 = typeColors[type2];
 
 
  return (
   <View style={styles.container}>
-      <Text style={styles.pokemonName}>{pokeName}
+      <Text style={[styles.pokemonName, {backgroundColor: backgroundType2}]}>{pokeName}
        </Text>
-       <View style={styles.pokeBox}>
+       <View style={[styles.pokeBox, {backgroundColor: backgroundType}]}>
         <Image source={pokePic} style={styles.pokemon} resizeMode='contain'/>
       </View>
         <View style={styles.statsBox}>
@@ -42,7 +44,7 @@ const styles = StyleSheet.create({
    backgroundColor: 'black',
   },
   pokeBox: {
-   backgroundColor: '#B6A136',
+   backgroundColor: 'pink',
    justifyContent: 'center',
    alignItems: 'center',
    height: 300,

@@ -1,16 +1,18 @@
 import StatsTemplate from '../../components/StatsTemplate'
+import { pokeStats, typePhotos } from '../../data/lycanrocks'
 
 export default function TyranitarStats(){
     const placeholder = {
-        hp: 12,
-        atk: 12,
-        def: 12,
-        spat: 12,
-        spdef: 12,
-        spd: 12,
-        type: 'rock',
+        hp: pokeStats.tyranitar.hp,
+        atk: pokeStats.tyranitar.atk,
+        def: pokeStats.tyranitar.def,
+        spat: pokeStats.tyranitar.spatk,
+        spdef: pokeStats.tyranitar.spdef,
+        spd: pokeStats.tyranitar.spd,
+        type1: 'rock',
+        type2: 'dark',
         pokeName: 'Tyranitar',
-        pokePic: { uri: 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png' },
+        pokePic: { uri: typePhotos.tyranitar},
         
     }
 
