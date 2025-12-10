@@ -2,27 +2,33 @@ import { StatusBar } from 'expo-status-bar';
 import LinkButton from '../components/LinkButton';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import typeColors from '../components/colorSheet';
-import Animated, {useSharedValue, withSpring
+import Animated, {useSharedValue, withSpring, useAnimatedStyle
 } from 'react-native-reanimated';
 
 export default function App() {
   const width = useSharedValue(102.5);
   const height = useSharedValue(41.25);
   const youreANerd = () => {
-    width.value = withSpring(width.value + 102.5);
-    height.value = withSpring(height.value+41.25);
+    width.value = width.value + 102.5;
+    height.value =height.value+41.25;
   };
+  const animatedImageStyle = useAnimatedStyle(() => {
+    return {
+      width: withSpring(width.value),
+      height: withSpring(height.value),
+    };
+  });
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>All the Pokémon data you'll ever need in one place!</Text>
       <Text style={styles.subtitle}>Thousands of data compiled into one place</Text>
-      <Button onPress={youreANerd} title="clickMe!"/>
-      <Image
+      <Button onPress={youreANerd} title="CLICK ME FOR MAGIC!"/>
+      <Animated.Image
         source={{
           uri: 'https://github.com/tiago1820/pokemon-pi/blob/main/client/src/images/landing-page/pokemon3.jpg?raw=true',
         }}
-        style={{ width, height, borderColor: 'black', borderWidth: 2 }}
+        style={[{ borderColor: 'black', borderWidth: 2, width: 205, height: 82.5 }, animatedImageStyle]}
       />
 
       <View style={styles.imageRow}>
