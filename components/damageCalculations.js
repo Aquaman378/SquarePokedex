@@ -2,26 +2,21 @@ import { StyleSheet, SafeAreaView, Button, Text, View } from 'react-native';
 
 let crit;
 
-let q=false;
-export default function type(ATK,SPATK,DEF,SPDEF,BP,isSpecial){
+export default function type(ATK, SPATK, DEF, SPDEF, BP, isSpecial){
   crit = Math.floor(Math.random() * 16) + 1;
-  // if(user.getWeak()==opp.getType)
-  // q=true;
+
   if (isSpecial) {
     ATK = SPATK;
     DEF = SPDEF;
   }
-  if (q==true){
   if (crit == 16) {
     console.log('It was a critical hit!');
-    console.log((Math.floor(Math.floor((Math.floor((2 * 100) / 5 + 2) * ATK * BP) / DEF) / 50) +2) *1.5 *2);
-  } else 
-    console.log(Math.floor((Math.floor((Math.floor((2 * 100) / 5 + 2) * ATK * BP) / DEF) / 50) + 2 )*2);
+    return ( 
+      (Math.floor(Math.floor((Math.floor((2 * 100) / 5 + 2) * ATK * BP) / DEF) / 50) +2) *1.5 
+    )
   } else {
-  if (crit == 16) {
-    console.log('It was a critical hit!');
-    console.log((Math.floor(Math.floor((Math.floor((2 * 100) / 5 + 2) * ATK * BP) / DEF) / 50) +2) *1.5);
-  } else 
-    console.log(Math.floor(Math.floor((Math.floor((2 * 100) / 5 + 2) * ATK * BP) / DEF) / 50) + 2);
+    return ( 
+      (Math.floor(Math.floor((Math.floor((2 * 100) / 5 + 2) * ATK * BP) / DEF) / 50) +2)
+    )
   }
 }
