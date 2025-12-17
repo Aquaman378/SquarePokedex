@@ -1,0 +1,6 @@
+{
+    "git.useForcePushIfIncludes": true,
+    "git.useCommitInputAsStashMessage": false,
+    "git.useEditorAsCommitInput": false,
+    "git.untrackedChanges": "separate"
+}
