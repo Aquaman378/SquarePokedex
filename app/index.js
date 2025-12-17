@@ -7,14 +7,19 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>All the Pokémon data you'll ever need in one place!</Text>
+      
       <Text style={styles.subtitle}>Thousands of data compiled into one place</Text>
 
-      <Image
-        source={{
-          uri: 'https://github.com/tiago1820/pokemon-pi/blob/main/client/src/images/landing-page/pokemon3.jpg?raw=true',
-        }}
-        style={{ width: 410, height: 165, borderColor: 'black', borderWidth: 2 }}
-      />
+      <View style={{ marginBottom: 20 , alignItems: 'center' , justifyContent: 'center'}}>
+        <Image
+          source={{
+            uri: 'https://github.com/tiago1820/pokemon-pi/blob/main/client/src/images/landing-page/pokemon3.jpg?raw=true',
+          }}
+          style={{ width: 410, height: 165, borderColor: 'black', borderWidth: 2 }}
+        />
+        <Text style={{ textAlign: 'center', marginVertical: 5, fontSize: 12 }}> Ready to Battle </Text>
+      </View>
+
 
       <View style={styles.imageRow}>
         <LinkButton
@@ -74,7 +79,7 @@ export default function App() {
         />
       </View>
 
-      <Text style={styles.title}>Click on a Pokémon to learn more!</Text>
+      <Text style={styles.subtitle}>Click on a Pokémon to learn more!</Text>
 
       <View style={styles.footer}>
         <Text style={styles.footerTitle}>PokéDex</Text>
@@ -82,8 +87,17 @@ export default function App() {
       </View>
 
       <StatusBar style="auto" />
+      <View>
+          <Text style={styles.title}>Ready For Battle</Text>
+          <LinkButton
+            href="selectionScreen"
+            title="Select Your Pokémon"
+            backgroundColor="#FFCB05"
+          />
+      </View>
+      
     </View>
-  );
+    );
 }
 
 const styles = StyleSheet.create({
